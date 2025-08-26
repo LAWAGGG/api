@@ -132,4 +132,4 @@ npm run dev
 
 ## 👨‍💻 Pengembang
 
-- **Developer Utama** — [GitHub](https://github.com/username)
+- **Developer Utama** — [GitHub](https://github.com/LAWAGGG)
