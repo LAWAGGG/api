@@ -16,13 +16,7 @@ export default function Gallery() {
 
     async function fetchGallery() {
         setLoading(true)
-        const res = await fetch(`/gallery/SPES-Galery.json`, {
-            method: "GET",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json"
-            }
-        })
+        const res = await fetch("https://lawaggg.github.io/api/v1/SPES-Galery.json");
         const data = await res.json()
         setGallery(data)
         setLoading(false)
@@ -152,7 +146,7 @@ export default function Gallery() {
                 <div className="modal-overlay" onClick={() => setSelectedImage(null)}>
                     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
                         <button className="close-btn" onClick={() => setSelectedImage(null)}>✖</button>
-                        
+
                         <img src={selectedImage.image_url_1} alt={selectedImage.title} className="modal-img" />
                         <h2>{selectedImage.title}</h2>
                         <p>{selectedImage.description}</p>

@@ -47,26 +47,15 @@ export default function Home() {
 
     async function fetchStudent() {
         setIsStudentLoading(true);
-        const res = await fetch(`/gallery/SPES-Students.json`, {
-            method: "GET",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json"
-            }
-        })
+        const res = await fetch("https://lawaggg.github.io/api/v1/SPES-Students.json");
         const data = await res.json();
         setStudent(data)
+        console.log(data)
         setIsStudentLoading(false);
     }
 
     async function fetchGallery() {
-        const res = await fetch(`/gallery/SPES-Galery.json`, {
-            method: "GET",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json"
-            }
-        })
+        const res = await fetch("https://lawaggg.github.io/api/v1/SPES-Galery.json");
         const data = await res.json()
         setgallery(data)
     }
@@ -370,7 +359,7 @@ export default function Home() {
             </div>
 
             <div className="StudentPage">
-                
+
                 <div className={`StudentWrapper ${isStudentLoading ? 'vhFull' : ''}`}>
                     <div className="member">
                         <h1 className="memberTitle">Our Members 🫂!</h1>
@@ -395,9 +384,9 @@ export default function Home() {
                             ))
                         }
                     </div>
-                </div> 
+                </div>
             </div>
-            
+
             <div className="GalleryPage">
                 <div className="Galleries">
                     <div className="images">

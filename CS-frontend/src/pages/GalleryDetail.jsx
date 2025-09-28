@@ -10,16 +10,10 @@ export default function GalleryDetail() {
     const [title, settitle] = useState("")
     const [currentSlide, setCurrentSlide] = useState(0)
     const [isTransitioning, setIsTransitioning] = useState(false)
-    const {id} = useParams()
+    const { id } = useParams()
 
     async function fetchGallery() {
-        const res = await fetch(`/gallery/SPES-Galery.json`, {
-            method: "GET",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json"
-            }
-        })
+        const res = await fetch("https://lawaggg.github.io/api/v1/SPES-Galery.json");
         const data = await res.json()
         const found = data.find(item => item.id === Number(id))
         setgallery(found)
@@ -33,7 +27,7 @@ export default function GalleryDetail() {
             found.image_url_2,
             found.image_url_3,
         ].filter(img => img) // Filter out null/undefined images
-        
+
         setimages(imageArray)
     }
 
@@ -46,7 +40,7 @@ export default function GalleryDetail() {
         if (isTransitioning || images.length <= 1) return
         setIsTransitioning(true)
         setCurrentSlide((prev) => (prev === 0 ? images.length - 1 : prev - 1))
-        
+
         setTimeout(() => {
             setIsTransitioning(false)
         }, 700) // Durasi sesuai CSS transition
@@ -56,7 +50,7 @@ export default function GalleryDetail() {
         if (isTransitioning || images.length <= 1) return
         setIsTransitioning(true)
         setCurrentSlide((prev) => (prev === images.length - 1 ? 0 : prev + 1))
-        
+
         setTimeout(() => {
             setIsTransitioning(false)
         }, 700) // Durasi sesuai CSS transition
@@ -67,7 +61,7 @@ export default function GalleryDetail() {
         if (isTransitioning || index === currentSlide || images.length <= 1) return
         setIsTransitioning(true)
         setCurrentSlide(index)
-        
+
         setTimeout(() => {
             setIsTransitioning(false)
         }, 700)
@@ -115,7 +109,7 @@ export default function GalleryDetail() {
                         <div className="carousel-wrapper">
                             {images.length > 0 && (
                                 <>
-                                    <div 
+                                    <div
                                         className={`carousel-container ${isTransitioning ? 'transitioning' : ''}`}
                                         style={{
                                             transform: `translateX(-${currentSlide * 100}%)`
@@ -123,8 +117,8 @@ export default function GalleryDetail() {
                                     >
                                         {images.map((image, index) => (
                                             <div key={index} className="carousel-slide">
-                                                <img 
-                                                    src={image} 
+                                                <img
+                                                    src={image}
                                                     alt={`Image ${index + 1}`}
                                                     className="loaded"
                                                     onLoad={(e) => e.target.classList.add('loaded')}
@@ -132,25 +126,25 @@ export default function GalleryDetail() {
                                             </div>
                                         ))}
                                     </div>
-                                    
+
                                     {/* Navigation Buttons - hanya tampil jika ada lebih dari 1 gambar */}
                                     {images.length > 1 && (
                                         <>
-                                            <button 
-                                                className="carousel-btn left" 
+                                            <button
+                                                className="carousel-btn left"
                                                 onClick={prevSlide}
                                                 disabled={isTransitioning}
                                             >
                                                 &#10094;
                                             </button>
-                                            <button 
-                                                className="carousel-btn right" 
+                                            <button
+                                                className="carousel-btn right"
                                                 onClick={nextSlide}
                                                 disabled={isTransitioning}
                                             >
                                                 &#10095;
                                             </button>
-                                            
+
                                             {/* Indicator Dots - hanya tampil jika ada lebih dari 1 gambar */}
                                             <div className="carousel-indicators">
                                                 {images.map((_, index) => (

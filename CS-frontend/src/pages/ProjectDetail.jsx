@@ -7,7 +7,7 @@ export default function ProjectDetail() {
     const { id } = useParams()
 
     async function fetchProject() {
-        const res = await fetch(`/gallery/SPES-Project.json`)
+        const res = await fetch("https://lawaggg.github.io/api/v1/SPES-Project.json");
         const data = await res.json()
         const found = data.find(item => item.id === Number(id))
         console.log(data)

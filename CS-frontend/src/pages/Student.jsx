@@ -10,13 +10,7 @@ export default function Student() {
 
     async function fetchStudent() {
         setLoading(true)
-        const res = await fetch(`/gallery/SPES-Students.json`, {
-            method: "GET",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json"
-            }
-        })
+        const res = await fetch("https://lawaggg.github.io/api/v1/SPES-Students.json");
         const data = await res.json();
         setStudent(data)
         setLoading(false)

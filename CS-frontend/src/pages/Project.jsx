@@ -11,13 +11,7 @@ export default function Project() {
 
     async function fetchProject() {
         setLoading(true)
-        const res = await fetch(`/gallery/SPES-Project.json`, {
-            method: "GET",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json"
-            }
-        })
+        const res = await fetch("https://lawaggg.github.io/api/v1/SPES-Project.json");
         const data = await res.json();
         setProject(data)
         setLoading(false)

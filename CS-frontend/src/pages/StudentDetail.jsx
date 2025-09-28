@@ -8,7 +8,7 @@ export default function StudentDetail() {
     const { id } = useParams()
     async function fetchStudent() {
         setLoading(true)
-        const res = await fetch(`/gallery/SPES-Students.json`)
+       const res = await fetch("https://lawaggg.github.io/api/v1/SPES-Students.json");
         const data = await res.json()
         const found = data.find(item => item.id === Number(id))
         setStudent(found || {})
