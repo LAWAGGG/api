@@ -3,7 +3,7 @@
   "id": 1,
   "title": "CLASS RESERVATION",
   "teacher": "Pak Aroh",
-  "creator": "null  ",
+  "creator": "null",
   "description": "Membuat projek Aplikasi berbasis C#",
   "image_url": "null",
   "repo_link": "https:\/\/github.com\/dashboard",
@@ -25,7 +25,7 @@
   "teacher": "Pak Aroh",
   "creator": "null",
   "description": "Membuat projek Aplikasi berbasis C#",
-  "image_url": "null",
+  "image_url": "https:\/\/res.cloudinary.com\/dnm8qczle\/image\/upload\/v1759047231\/WhatsApp_Image_2025-02-04_at_20.48.17_934e4325_lgamoi.jpg",
   "repo_link": "https:\/\/github.com\/dashboard",
   "language": "c#\nunity"
  },
@@ -135,7 +135,7 @@
   "teacher": "Pak Mujahid",
   "creator": "Faqih",
   "description": "Membuat website alat musik pianno yang interaktif",
-  "image_url": "null",
+  "image_url": "https:\/\/res.cloudinary.com\/dnm8qczle\/image\/upload\/v1759046925\/Screenshot_2025-08-18_173544_oqnktx.png",
   "repo_link": "https:\/\/github.com\/LAWAGGG\/Piano-JavaScript",
   "language": "html\ncss\njs"
  },
@@ -145,7 +145,7 @@
   "teacher": "Pak Mujahid",
   "creator": "Faqih",
   "description": "Membuat game replikasi Flappy Bird dengan js",
-  "image_url": "null",
+  "image_url": "https:\/\/res.cloudinary.com\/dnm8qczle\/image\/upload\/v1759046938\/Tampilan_v0qzhs.png",
   "repo_link": "https:\/\/github.com\/LAWAGGG\/Flappy_Bird",
   "language": "html\ncss\njs"
  },
@@ -154,7 +154,7 @@
   "title": "CRUD Js",
   "teacher": "Pak Mujahid",
   "creator": "Faqih",
-  "description": "Mempelajari cara membuat CRUD sementara di js",
+  "description": "Mempelajari cara membuat CRUD mengambil api php ke js",
   "image_url": "null",
   "repo_link": "https:\/\/github.com\/LAWAGGG\/CRUD-API",
   "language": "html\ncss\njs\nphp"
@@ -165,7 +165,7 @@
   "teacher": "Pak Mujahid",
   "creator": "null",
   "description": "Mencoba php untuk registrasi",
-  "image_url": "null",
+  "image_url": "https:\/\/res.cloudinary.com\/dnm8qczle\/image\/upload\/v1759047063\/WhatsApp_Image_2025-02-16_at_19.14.46_d9703285_wybdrt.jpg",
   "repo_link": "https:\/\/github.com\/dashboard",
   "language": "html\ncss\nphp"
  },
@@ -175,7 +175,7 @@
   "teacher": "Pak Mujahid",
   "creator": "Faqih",
   "description": "Membuat portofolio diri sendiri dengan bootstrap",
-  "image_url": "null",
+  "image_url": "https:\/\/res.cloudinary.com\/dnm8qczle\/image\/upload\/v1759047101\/Screenshot_2024-10-27_223158_z5pabi.png",
   "repo_link": "https:\/\/github.com\/LAWAGGG\/Bootstrap-Portofolio",
   "language": "html\nbootstrap"
  },
@@ -244,7 +244,7 @@
   "title": "Schopedia",
   "teacher": "Kunjungan Industri",
   "creator": "Kelompok 1",
-  "description": "Membuat project aplikasi (mobile & web) marketplace untuk siswa siswi berjualan ",
+  "description": "Membuat project aplikasi (mobile & web) marketplace untuk siswa siswi berjualan",
   "image_url": "https:\/\/res.cloudinary.com\/dnm8qczle\/image\/upload\/v1759045493\/Untitled_design_y35gdl.png",
   "repo_link": "https:\/\/github.com\/LAWAGGG\/Schopedia",
   "language": "ReactJs\nLaravel"
