@@ -11,10 +11,12 @@ export default function Gallery() {
     const [loading, setLoading] = useState(true)
     const timeoutRef = useRef(null)
     const animationRefs = useRef([])
+    const [selectedImage, setSelectedImage] = useState(null)
+
 
     async function fetchGallery() {
         setLoading(true)
-        const res = await fetch(`${BASE_URL}/gallery`, {
+        const res = await fetch(`/gallery/SPES-Galery.json`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -22,8 +24,9 @@ export default function Gallery() {
             }
         })
         const data = await res.json()
-        setGallery(data.Galleries)
+        setGallery(data)
         setLoading(false)
+        console.log(data)
     }
 
     useEffect(() => {
@@ -62,7 +65,7 @@ export default function Gallery() {
                     }
                 })
             },
-            { 
+            {
                 threshold: 0.1,
                 rootMargin: '0px 0px -50px 0px' // Memicu animasi sedikit sebelum element masuk viewport
             }
@@ -123,18 +126,20 @@ export default function Gallery() {
                         <div className="gallery-list">
                             {loading ? (
                                 Array(6).fill(0).map((_, i) => (
-                                    <div key={i} 
-                                         ref={addToRefs}
-                                         className="GalleryCard skeleton-card fade-in">
+                                    <div key={i}
+                                        ref={addToRefs}
+                                        className="GalleryCard skeleton-card fade-in">
                                         <div className="skeleton-image"></div>
                                     </div>
                                 ))
                             ) : (
                                 gallery.map((item, i) => (
-                                    <Link key={i} to={`/gallery/${item.id}`}>
-                                        <div ref={addToRefs} className="GalleryCard fade-in">
-                                            <img src={item.image_url_1} alt="" />
-                                        </div>
+                                    <Link
+                                        to={`/gallery/${item.id}`}
+                                        key={i}
+                                        ref={addToRefs}
+                                        className="GalleryCard fade-in">
+                                        <img src={item.image_url_1} alt={item.title} />
                                     </Link>
                                 ))
                             )}
@@ -143,6 +148,17 @@ export default function Gallery() {
                 </div>
             </div>
             <Footer></Footer>
+            {selectedImage && (
+                <div className="modal-overlay" onClick={() => setSelectedImage(null)}>
+                    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                        <button className="close-btn" onClick={() => setSelectedImage(null)}>✖</button>
+                        
+                        <img src={selectedImage.image_url_1} alt={selectedImage.title} className="modal-img" />
+                        <h2>{selectedImage.title}</h2>
+                        <p>{selectedImage.description}</p>
+                    </div>
+                </div>
+            )}
         </>
     )
 }

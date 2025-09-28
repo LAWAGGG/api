@@ -11,7 +11,7 @@ export default function Project() {
 
     async function fetchProject() {
         setLoading(true)
-        const res = await fetch(`${BASE_URL}/project`, {
+        const res = await fetch(`/gallery/SPES-Project.json`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -19,7 +19,7 @@ export default function Project() {
             }
         })
         const data = await res.json();
-        setProject(data.Projects)
+        setProject(data)
         setLoading(false)
     }
 
@@ -112,7 +112,7 @@ export default function Project() {
                                         <div className="ProjectDetail">
                                             <h2>{item.title}</h2>
                                             <div className="languages">
-                                                {item.language.map((lang, i) => {
+                                                {item.language.split("\n").map((lang, i) => {
                                                     const langClass = lang.toLowerCase().replace(/#/g, 's');
                                                     return (
                                                         <span key={i} className={`techTag ${langClass}`}>

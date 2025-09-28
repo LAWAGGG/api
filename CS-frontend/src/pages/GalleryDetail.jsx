@@ -10,10 +10,10 @@ export default function GalleryDetail() {
     const [title, settitle] = useState("")
     const [currentSlide, setCurrentSlide] = useState(0)
     const [isTransitioning, setIsTransitioning] = useState(false)
-    const params = useParams()
+    const {id} = useParams()
 
     async function fetchGallery() {
-        const res = await fetch(`${BASE_URL}/gallery/${params.id}`, {
+        const res = await fetch(`/gallery/SPES-Galery.json`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -21,15 +21,17 @@ export default function GalleryDetail() {
             }
         })
         const data = await res.json()
-        setgallery(data.image)
-        setdesc(data.image.description)
-        settitle(data.image.title)
+        const found = data.find(item => item.id === Number(id))
+        setgallery(found)
+        console.log(found)
+        setdesc(found.description)
+        settitle(found.title)
 
         // Gabung gambar jadi array
         const imageArray = [
-            data.image.image_url_1,
-            data.image.image_url_2,
-            data.image.image_url_3,
+            found.image_url_1,
+            found.image_url_2,
+            found.image_url_3,
         ].filter(img => img) // Filter out null/undefined images
         
         setimages(imageArray)

@@ -8,7 +8,6 @@ import Footer from "../assets/Footer";
 
 export default function Home() {
     const [student, setStudent] = useState([])
-    const [project, setProject] = useState([])
     const [gallery, setgallery] = useState([])
     const [isStudentLoading, setIsStudentLoading] = useState(true);
     const [visible, setVisible] = useState(false);
@@ -48,7 +47,7 @@ export default function Home() {
 
     async function fetchStudent() {
         setIsStudentLoading(true);
-        const res = await fetch(`${BASE_URL}/student`, {
+        const res = await fetch(`/gallery/SPES-Students.json`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -56,24 +55,12 @@ export default function Home() {
             }
         })
         const data = await res.json();
-        setStudent(data.Students)
+        setStudent(data)
         setIsStudentLoading(false);
     }
 
-    async function fetchProject() {
-        const res = await fetch(`${BASE_URL}/project`, {
-            method: "GET",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json"
-            }
-        })
-        const data = await res.json();
-        setProject(data.Projects)
-    }
-
     async function fetchGallery() {
-        const res = await fetch(`${BASE_URL}/gallery`, {
+        const res = await fetch(`/gallery/SPES-Galery.json`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -81,12 +68,11 @@ export default function Home() {
             }
         })
         const data = await res.json()
-        setgallery(data.Galleries)
+        setgallery(data)
     }
 
     useEffect(() => {
         fetchStudent()
-        fetchProject()
         fetchGallery()
     }, [])
 
@@ -266,7 +252,7 @@ export default function Home() {
                         <div className="body" style={{ position: 'relative', zIndex: 1 }}>
                             <div className="Header" xyz="fade stagger-1 up-3 ease-out-back">
                                 <div className="text">
-                                    <h1 className="h1">Welcome To <br />Command SPES!</h1>
+                                    <h1 className="h1">Welcome Tooo <br />Command SPES!</h1>
                                     <p>Software Programming And Engineering Specialist 🤩</p>
                                 </div>
                                 <div className="SpesLogo">
@@ -409,16 +395,9 @@ export default function Home() {
                             ))
                         }
                     </div>
-                </div>
-
-                 <div className="meteor-container">
-                    {Array.from({ length: 20 }).map((_, i) => (
-                        <div key={i} className="meteor" />
-                    ))}
-                </div>
+                </div> 
             </div>
-
-
+            
             <div className="GalleryPage">
                 <div className="Galleries">
                     <div className="images">

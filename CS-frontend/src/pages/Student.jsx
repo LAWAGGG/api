@@ -10,7 +10,7 @@ export default function Student() {
 
     async function fetchStudent() {
         setLoading(true)
-        const res = await fetch(`${BASE_URL}/student`, {
+        const res = await fetch(`/gallery/SPES-Students.json`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -18,8 +18,9 @@ export default function Student() {
             }
         })
         const data = await res.json();
-        setStudent(data.Students)
+        setStudent(data)
         setLoading(false)
+        console.log(data)
     }
 
     useEffect(() => {

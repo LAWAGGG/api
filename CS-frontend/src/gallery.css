@@ -421,6 +421,7 @@
     transform: translateX(0);
 }
 
+
 /* Media Queries untuk Responsiveness */
 @media (max-width: 480px) {
     .carousel-wrapper {
