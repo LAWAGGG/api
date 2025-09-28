@@ -1764,8 +1764,8 @@ body {
 
     .ProjectContents::after{
         z-index: 1000;
-        top: 73%;
-        width: 250%;
+        top: 80%;
+        width: 100%;
     }
 
     .DetailProject {
