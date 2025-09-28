@@ -23,7 +23,7 @@ export default function ProjectDetail() {
             <div className="ProjectPage">
                 <div className="ProjectImage">
                     <Link className="back" to="/projects">&larr; Back</Link>
-                    <img src={project.image} alt="Project Image" />
+                    <img src={project.image_url} alt="Project Image" />
                 </div>
                 <div className="ProjectContents">
                     <div className="DetailProject">
@@ -37,7 +37,7 @@ export default function ProjectDetail() {
 
                         <p>Repository:</p>
                         <p>
-                            <a href={project.repo} rel="noopener noreferrer">
+                            <a href={project.repo_link} rel="noopener noreferrer">
                                 GitHub Link
                             </a>
                         </p>
@@ -50,7 +50,7 @@ export default function ProjectDetail() {
                         </div>
 
                         <p>Description :</p>
-                        <p className="description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque veniam velit, recusandae earum quidem consequuntur quo, voluptas sequi repudiandae iure dicta quos voluptates hic a magnam cumque illo nam? Reiciendis.</p>
+                        <p className="description-text">{project.description}</p>
                     </div>
                 </div>
             </div>

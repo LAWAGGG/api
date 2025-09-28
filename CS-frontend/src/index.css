@@ -570,19 +570,9 @@ svg:hover {
     }
 
     .studentCard {
-        display: flex;
-        background-color: #1f47649b;
-        backdrop-filter: blur(5px);
-        padding: 1rem;
-        border-radius: 1.5rem;
-        align-items: center;
+
         width: 100%;
-        gap: 1rem;
-        color: white;
-        border: 4px solid #102d40;
-        justify-content: start;
-        box-shadow: -8px 8px 8px #071620;
-        transition: 0.3s;
+
     }
 }
 
@@ -916,21 +906,7 @@ svg:hover {
         font-size: 1.8rem;
     }
 
-    .StudentCard {
-        display: flex;
-        background-color: #1f47649b;
-        backdrop-filter: blur(5px);
-        padding: 1rem;
-        border-radius: 1.5rem;
-        align-items: center;
-        width: 350px;
-        gap: 1rem;
-        color: white;
-        border: 4px solid #102d40;
-        justify-content: start;
-        box-shadow: -8px 8px 8px #071620;
-        transition: 0.3s;
-    }
+
 
     .StudentDetail {
         padding: 1rem;
@@ -1383,6 +1359,18 @@ body {
     border-radius: .3rem;
 }
 
+.reactjs {
+    background: linear-gradient(rgb(0, 140, 201), rgb(0, 64, 142));
+    padding: 0rem .5rem;
+    border-radius: .3rem;
+}
+
+.laravel {
+    background: linear-gradient(red, orange);
+    padding: 0rem .5rem;
+    border-radius: .3rem;
+}
+
 .css {
     background-color: rgb(0, 128, 255);
     padding: 0rem .5rem;
@@ -1617,19 +1605,46 @@ body {
 .ProjectImage {
     width: 100%;
     height: 35dvh;
-    background-color: #0e1a2f;
+    background: linear-gradient(to bottom, #051128, #0a1a3a);
     position: relative;
     overflow: hidden;
 }
 
+.ProjectImage img {
+    width: 100%;
+    height: 300%;
+
+}
+
+.ProjectImages {
+    width: 100%;
+    height: 35dvh;
+    background: linear-gradient(to bottom, #051128, #0a1a3a);
+    position: relative;
+    overflow: hidden;
+}
+
+.ProjectImages img {
+    width: 100%;
+    height: 100%;
+
+}
+
 
 .back {
-    display: flex;
     position: absolute;
-    top: 4%;
-    left: 1%;
+    top: 1rem;
+    left: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0.4rem 0.8rem;
+    border-radius: 2rem;
+    font-size: 0.85rem;
     color: white;
-
+    text-decoration: none;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
 }
 
 .ProjectContents {
@@ -1704,7 +1719,7 @@ body {
 /* Mobile Styles Only (tambahkan di bagian bawah file CSS) */
 @media (max-width: 768px) {
     .ProjectPage {
-        height: auto;
+        height: 100%;
         min-height: 100dvh;
         display: flex;
         flex-direction: column;
@@ -1743,9 +1758,14 @@ body {
         background: linear-gradient(to bottom, #051128, #0a1a3a);
     }
 
-    .ProjectContents::after,
     .ProjectContents::before {
         display: none;
+    }
+
+    .ProjectContents::after{
+        z-index: 1000;
+        top: 73%;
+        width: 250%;
     }
 
     .DetailProject {
@@ -1810,7 +1830,6 @@ body {
         color: #cfd8dc;
     }
 }
-
 
 /* Class Details Section */
 .ClassDetails {
@@ -2488,7 +2507,7 @@ body {
     }
 
     .name h2 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
 
     }
 
@@ -2580,6 +2599,8 @@ body {
     }
 
     .Profile {
+        /* width: 180px;
+        height: 130px; */
         width: 80%;
         height: 90%;
         border-radius: 50%;

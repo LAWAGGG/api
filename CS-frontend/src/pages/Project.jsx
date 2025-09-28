@@ -105,7 +105,7 @@ export default function Project() {
                                 <Link key={i} to={`/project/${item.id}`} className="animate-card"
                                     style={{ animationDelay: `${i * 0.1}s` }} >
                                     <div className="ProjectCard">
-                                        <div className="ProjectImage">
+                                        <div className="ProjectImages">
                                             <img src={item.image_url} alt={item.title} />
                                             <div className="imageOverlay"></div>
                                         </div>
@@ -115,7 +115,7 @@ export default function Project() {
                                                 {item.language.split("\n").map((lang, i) => {
                                                     const langClass = lang.toLowerCase().replace(/#/g, 's');
                                                     return (
-                                                        <span key={i} className={`techTag ${langClass}`}>
+                                                        <span key={i} className={`${langClass}`}>
                                                             {lang}
                                                         </span>
                                                     )
