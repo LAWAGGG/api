@@ -11,7 +11,8 @@ export default defineConfig({
         rewrite: path => path.replace(/^\/gallery/, '/api/v1')
       }
     }
-  }
+  },
+  base:process.env.VITE_BASE_PATH || "/CommandSPES-V2/tree/main/CS-frontend",
 
 })
 
