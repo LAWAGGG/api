@@ -5,11 +5,15 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://commandspes58.vercel.app/projek</loc>
+    <loc>https://commandspes58.vercel.app/students</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://commandspes58.vercel.app/pencapaian</loc>
+    <loc>https://commandspes58.vercel.app/projects</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://commandspes58.vercel.app/galleries</loc>
     <priority>0.8</priority>
   </url>
 </urlset>
