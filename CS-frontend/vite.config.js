@@ -12,7 +12,7 @@ export default defineConfig({
       }
     }
   },
-  base:process.env.VITE_BASE_PATH || "/CommandSPES-V2/tree/main/CS-frontend",
+  base:process.env.VITE_BASE_PATH,
 
 })
 
