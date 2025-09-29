@@ -27,7 +27,7 @@ Route::get("/gallery/{gallery}", [GalleryController::class, "show"]);
 //admin middleware
 Route::middleware("auth:sanctum")->group(function () {
     //import & CRUD features (student)
-    Route::post("/student/import", [StudentController::class, "import"]);
+    Route::post("/student/import", [StudentController::class, "import"]); 
     Route::resource("student", ProjectController::class)->only([
         "store",
         "update",

@@ -6,6 +6,7 @@ use App\Models\Student;
 use Illuminate\Support\Facades\Log;
 use Maatwebsite\Excel\Concerns\ToModel;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
+use PhpOffice\PhpSpreadsheet\Shared\Date;
 
 class StudentsImport implements ToModel, WithHeadingRow
 {
@@ -17,16 +18,27 @@ class StudentsImport implements ToModel, WithHeadingRow
             return null;
         }
 
+        // default null
+        $birthDate = null;
+
+        if (!empty($row['birth_date'])) {
+            if (is_numeric($row['birth_date'])) {
+                $birthDate = Date::excelToDateTimeObject($row['birth_date'])->format('Y-m-d');
+            } elseif (strtotime($row['birth_date']) !== false) {
+                $birthDate = date('Y-m-d', strtotime($row['birth_date']));
+            }
+        }
+
         return new Student([
-            'name' => $row['name'] ?? null,
-            'birth_date' => $row['birth_date'] ?? null,
-            'gender' => $row['gender'] ?? null,
-            'sosmed' => $row['sosmed'] ?? null,
+            'name'        => $row['name'] ?? null,
+            'birth_date'  => $birthDate,   
+            'gender'      => $row['gender'] ?? null,
+            'sosmed'      => $row['sosmed'] ?? null,
             'profile_url' => $row['profile_url'] ?? null,
-            'absen' => $row['absen'] ?? null,
-            'skill' => $row['skill'] ?? null,
+            'absen'       => $row['absen'] ?? null,
+            'skill'       => $row['skill'] ?? null,
             'description' => $row['description'] ?? null,
-            'position' => $row['position'] ?? null,
+            'position'    => $row['position'] ?? null,
         ]);
     }
 }
