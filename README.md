@@ -9,13 +9,6 @@ Tujuan utama dari proyek ini adalah untuk memperlihatkan hasil karya serta infor
 
 ```
 CommandSPES-V2/
-├── CS-backend/       # Backend (Laravel + PHP)
-│   ├── app/          # Kode utama backend (Controller, Model, Middleware)
-│   ├── database/     # Migrasi dan seeder
-│   ├── routes/       # Definisi route API dan web
-│   ├── composer.json # Dependensi PHP
-│   ├── package.json  # Build tools (Vite)
-│   └── ...
 └── CS-frontend/      # Frontend (ReactJS)
     ├── src/          # Komponen dan halaman
     ├── public/       # Asset publik
