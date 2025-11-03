@@ -10,7 +10,7 @@ export default function StudentDetail() {
         setLoading(true)
        const res = await fetch("https://lawaggg.github.io/api/v1/SPES-Students.json");
         const data = await res.json()
-        const found = data.find(item => item.id === Number(id))
+        const found = data.find(item => item.id === id)
         setStudent(found || {})
         setLoading(false)
     }
