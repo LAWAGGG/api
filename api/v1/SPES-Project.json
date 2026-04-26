@@ -243,10 +243,80 @@
   "id": 25,
   "title": "Schopedia",
   "teacher": "Kunjungan Industri",
-  "creator": "Kelompok 1",
+  "creator": "Kelompok Ladya",
   "description": "Membuat project aplikasi (mobile & web) marketplace untuk siswa siswi berjualan",
   "image_url": "https:\/\/res.cloudinary.com\/dnm8qczle\/image\/upload\/v1759045493\/Untitled_design_y35gdl.png",
   "repo_link": "https:\/\/github.com\/LAWAGGG\/Schopedia",
+  "language": "ReactJs\nLaravel"
+ },
+ {
+  "id": 26,
+  "title": "Home Cloud",
+  "teacher": "Pak Arroh",
+  "creator": "Kelompok Abby",
+  "description": "Membuat project aplikasi mobile premium self-hosted cloud storage",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1777209840/Screenshot_2026-04-26_202339_eaorfj.png",
+  "repo_link": "https://home-cloud-app.vercel.app/",
+  "language": "Flutter\nGolang"
+ },
+ {
+  "id": 27,
+  "title": "SkillPath",
+  "teacher": "Pak Arroh",
+  "creator": "Faqih",
+  "description": "Membuat project aplikasi mobile generate roadmap belajar berbasis ai",
+  "image_url": "null",
+  "repo_link": "https://github.com/LAWAGGG/SkillPath",
+  "language": "ReactJs\nLaravel"
+ },
+ {
+  "id": 28,
+  "title": "FindIt",
+  "teacher": "Pak Arroh",
+  "creator": "Fadhil",
+  "description": "Membuat project aplikasi mobile forum pencaharian barang yang hilang",
+  "image_url": "null",
+  "repo_link": "https://github.com/Nabixka/FindIt",
+  "language": "VueJs\nExpressJs"
+ },
+ {
+  "id": 29,
+  "title": "Heawant",
+  "teacher": "Pak Arroh",
+  "creator": "Virza",
+  "description": "Membuat project aplikasi mobile marketplace penjualan hewan kurban",
+  "image_url": "null",
+  "repo_link": "https://github.com/VirzaPixel/Heawant",
+  "language": "Flutter\nGolang"
+ },
+ {
+  "id": 30,
+  "title": "MentorX",
+  "teacher": "Kunjungan Industri",
+  "creator": "Kelompok Virza",
+  "description": "An Application for Student Management and Internship Monitoring (PKL) ",
+  "image_url": "null",
+  "repo_link": "https://github.com/VirzaPixel/MentorX",
+  "language": "Flutter\nGolang\nTypescript"
+ },
+ {
+  "id": 31,
+  "title": "LibraryOfTenizen",
+  "teacher": "Kunjungan Industri",
+  "creator": "Kelompok Rizky",
+  "description": "platform perpustakaan digital modern yang dirancang khusus untuk lingkungan sekolah.",
+  "image_url": "null",
+  "repo_link": "https://github.com/Rizki6191/LibraryOfTenizen",
+  "language": "ReactJs\nLaravel"
+ },
+ {
+  "id": 32,
+  "title": "MuslimNoob",
+  "teacher": "Pak Aroh",
+  "creator": "Apip",
+  "description": "a free, clean, and simple muslim prayer reminder and guide ",
+  "image_url": "null",
+  "repo_link": "https://github.com/itzfurizugg/MuslimNoob",
   "language": "ReactJs\nLaravel"
  }
 ]
