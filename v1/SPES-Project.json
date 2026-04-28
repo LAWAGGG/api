@@ -318,5 +318,115 @@
   "image_url": "null",
   "repo_link": "https://github.com/itzfurizugg/MuslimNoob",
   "language": "ReactJs\nLaravel"
+ },
+ {
+  "id": 33,
+  "title": "tookShot",
+  "teacher": "Pak Aroh",
+  "creator": "Kelompok Apip",
+  "description": "Aplikasi Peminjaman Kamera Online",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1777335092/Screenshot_2026-04-28_071112_kzober.png",
+  "repo_link": "https://github.com/itzfurizugg/MuslimNoob",
+  "language": "Java"
+ },
+ {
+  "id": 34,
+  "title": "LunchUp",
+  "teacher": "Pak Aroh",
+  "creator": "Kelompok Karllo",
+  "description": "Aplikasi pemesanan makanan",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1777335383/Screenshot_2026-04-28_071608_o6dzca.png",
+  "repo_link": "https://github.com/Rizki6191/lunchup-readme.git",
+  "language": "Java"
+ },
+ {
+  "id": 35,
+  "title": "FixIt",
+  "teacher": "Pak Aroh",
+  "creator": "Kelompok Faqih",
+  "description": "Aplikasi pemesanan jasa tukang",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1777335547/Screenshot_2026-04-28_071854_z7alqn.png",
+  "repo_link": "https://github.com/LAWAGGG/FixIt",
+  "language": "Java"
+ },
+ {
+  "id": 36,
+  "title": "Crumbify",
+  "teacher": "Pak Aroh",
+  "creator": "Kelompok Nayla",
+  "description": "Aplikasi pemesanan mandiri (self-service) yang dirancang khusus untuk toko pastry dan kopi.",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1777335728/Screenshot_2026-04-28_072153_ovqhlc.png",
+  "repo_link": "https://github.com/n4nell/Crumbify.git",
+  "language": "Java"
+ },
+ {
+  "id": 37,
+  "title": "Sticker App",
+  "teacher": "Pak Aroh",
+  "creator": "Kelompok Salsa",
+  "description": "Aplikasi pemesanan mandiri (self-service) yang dirancang khusus untuk toko pastry dan kopi.",
+  "image_url": "null",
+  "repo_link": "https://github.com/sachaaXD/StickIt_Apps",
+  "language": "Kotlin"
+ },
+ {
+  "id": 38,
+  "title": "Pureefine",
+  "teacher": "Pak Aroh",
+  "creator": "Kelompok Dasha",
+  "description": "Aplikasi mobile yang berfokus pada review, eksplorasi, dan pengajuan produk skincare/kosmetik.",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1777335982/Screenshot_2026-04-28_072606_ntae3a.png",
+  "repo_link": "https://github.com/reineshaa/pureefine",
+  "language": "Java"
+ },
+ {
+  "id": 39,
+  "title": "MediCall",
+  "teacher": "Pak Aroh",
+  "creator": "Kelompok Haani",
+  "description": "Aplikasi mobile yang berfokus pada konsultasi kesehatan",
+  "image_url": "null",
+  "repo_link": "https://github.com",
+  "language": "Java"
+ },
+ {
+  "id": 40,
+  "title": "Flixora",
+  "teacher": "Pak Aroh",
+  "creator": "Kelompok Virza",
+  "description": "Aplikasi mobile yang berfokus pada pemesanan tiket bioskop",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1777336390/Screenshot_2026-04-28_073253_vhkuiw.png",
+  "repo_link": "https://github.com",
+  "language": "Java"
+ },
+ {
+  "id": 40,
+  "title": "TenShare",
+  "teacher": "Pak Aroh",
+  "creator": "Kelompok Fadhil",
+  "description": "Aplikasi android yang dirancang untuk mempermudah proses donasi serta menyalurkan bantuan kepada yang membutuhkan secara cepat, aman, dan transparan.",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1777336809/Screenshot_2026-04-28_073956_e5fnjk.png",
+  "repo_link": "https://github.com/Nabixka/DonShare-Android.git",
+  "language": "Kotlin"
+ },
+ {
+  "id": 41,
+  "title": "E-Vote",
+  "teacher": "Pak Aroh",
+  "creator": "Kelompok Ariq",
+  "description": "aplikasi Android yang digunakan untuk melakukan pemilihan kandidat secara digital,",
+  "image_url": "null",
+  "repo_link": "https://github.com",
+  "language": "Java"
+ },
+ {
+  "id": 41,
+  "title": "Recruit",
+  "teacher": "Pak Aroh",
+  "creator": "Kelompok Hendri",
+  "description": "Recruit adalah ekosistem portal lowongan kerja modern yang dirancang untuk memberikan pengalaman terbaik bagi Pelamar",
+  "image_url": "null",
+  "repo_link": "https://github.com",
+  "language": "Java"
  }
 ]
