@@ -265,7 +265,7 @@
   "teacher": "Pak Arroh",
   "creator": "Faqih",
   "description": "Membuat project aplikasi mobile generate roadmap belajar berbasis ai",
-  "image_url": "null",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1777337688/Screenshot_2026-04-28_075431_eruul4.png",
   "repo_link": "https://github.com/LAWAGGG/SkillPath",
   "language": "ReactJs\nLaravel"
  },
