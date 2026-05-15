@@ -285,7 +285,7 @@
   "teacher": "Pak Arroh",
   "creator": "Virza",
   "description": "Membuat project aplikasi mobile marketplace penjualan hewan kurban",
-  "image_url": "null",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1778831616/Screenshot_2026-05-15_145315_ycdnub.png",
   "repo_link": "https://github.com/VirzaPixel/Heawant",
   "language": "Flutter\nGolang"
  },
@@ -428,5 +428,65 @@
   "image_url": "null",
   "repo_link": "https://github.com",
   "language": "Java"
+ },
+ {
+  "id": 44,
+  "title": "ShelfLife",
+  "teacher": "Pak Aroh",
+  "creator": "Erzy",
+  "description": "full-stack inventory management ecosystem.",
+  "image_url": "null",
+  "repo_link": "https://github.com/dr1zzling/ShelfLife.git",
+  "language": "Flutter\nphp\npython"
+ },
+ {
+  "id": 45,
+  "title": "KopiNus",
+  "teacher": "Pak Aroh",
+  "creator": "Fathin",
+  "description": "Aplikasi Pemesanan Kopi",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1778830779/Screenshot_2026-05-15_143915_jsbbnx.png",
+  "repo_link": "https://github.com",
+  "language": "Flutter"
+ },
+ {
+  "id": 46,
+  "title": "Evolvix",
+  "teacher": "Pak Aroh",
+  "creator": "Nayla",
+  "description": "Aplikasi web interaktif yang dirancang untuk menganalisis dan mengembangkan kepribadian pengguna melalui skenario kehidupan nyata serta pola pengambilan keputusan.",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1778830972/Screenshot_2026-05-15_144238_igwtfd.png",
+  "repo_link": "https://github.com/n4nell/Evolvix",
+  "language": "php\nJava"
+ },
+ {
+  "id": 47,
+  "title": "SportBook",
+  "teacher": "Pak Aroh",
+  "creator": "Haekal",
+  "description": "Aplikasi Booking Lapangan Olahraga",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1778831188/Screenshot_2026-05-15_144608_x0m9ly.png",
+  "repo_link": "https://github.com",
+  "language": "Flutter\nGolang"
+ },
+ {
+  "id": 48,
+  "title": "EcoTracker",
+  "teacher": "Pak Aroh",
+  "creator": "Almer",
+  "description": "Aplikasi untuk mengelola permintaan pengambilan sampah daur ulang",
+  "image_url": "null",
+  "repo_link": "https://github.com/almer2304/ecotracker_fe",
+  "language": "Flutter\nGolang"
+ },
+ {
+  "id": 49,
+  "title": "CTF-blog",
+  "teacher": "Pak Aroh",
+  "creator": "Rizky",
+  "description": "Aplikasi blog yang berisi mengenai CTF(Capture the flag)",
+  "image_url": "null",
+  "repo_link": "https://github.com/Rizki6191/CTF-blog",
+  "language": "ReactJs\nExpressJs"
  }
 ]
