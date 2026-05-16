@@ -247,7 +247,7 @@
   "description": "Membuat project aplikasi (mobile & web) marketplace untuk siswa siswi berjualan",
   "image_url": "https:\/\/res.cloudinary.com\/dnm8qczle\/image\/upload\/v1759045493\/Untitled_design_y35gdl.png",
   "repo_link": "https:\/\/github.com\/LAWAGGG\/Schopedia",
-  "language": "ReactJs\nLaravel\nCapacitor"
+  "language": "ReactJs\nLaravel\nCapacitor\npostgresql"
  },
  {
   "id": 26,
@@ -287,7 +287,7 @@
   "description": "Membuat project aplikasi mobile marketplace penjualan hewan kurban",
   "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1778831616/Screenshot_2026-05-15_145315_ycdnub.png",
   "repo_link": "https://github.com/VirzaPixel/Heawant",
-  "language": "Flutter\nGolang"
+  "language": "Flutter\nGolang\nsupabase"
  },
  {
   "id": 30,
@@ -317,7 +317,7 @@
   "description": "a free, clean, and simple muslim prayer reminder and guide ",
   "image_url": "null",
   "repo_link": "https://github.com/itzfurizugg/MuslimNoob",
-  "language": "Flutter\nFirebase"
+  "language": "Flutter\nsupabase"
  },
  {
   "id": 33,
@@ -488,5 +488,15 @@
   "image_url": "null",
   "repo_link": "https://github.com/Rizki6191/CTF-blog",
   "language": "ReactJs\nExpressJs"
+ },
+ {
+  "id": 50,
+  "title": "UnstableStudio",
+  "teacher": "Pak Aroh",
+  "creator": "Abby",
+  "description": "A high-performance, native Android IDE designed to bring a desktop-grade development experience to your pocket.",
+  "image_url": "null",
+  "repo_link": "https://github.com/abayDahln/UnstableStudio",
+  "language": "Kotlin\nJava"
  }
 ]
