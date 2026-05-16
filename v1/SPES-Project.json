@@ -515,7 +515,7 @@
   "teacher": "Pak Aroh",
   "creator": "Abby",
   "description": "Lightweight and modern Windows desktop application built using C# and WinForms, designed to extract color palettes from images, pick color from screen, etc. It helps designers, developers, and color enthusiasts analyze and pick dominant colors from any uploaded image.",
-  "image_url": "null",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1778895610/Screenshot_2026-05-16_083916_iz0plv.png",
   "repo_link": "https://github.com/abayDahln/Pixelette",
   "language": "c#"
  },
