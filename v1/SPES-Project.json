@@ -498,5 +498,35 @@
   "image_url": "null",
   "repo_link": "https://github.com/abayDahln/UnstableStudio",
   "language": "Kotlin\nJava"
+ },
+ {
+  "id": 51,
+  "title": "EkstrakurikulerSekolah",
+  "teacher": "Pak Aroh",
+  "creator": "Kelompok Abby",
+  "description": "Platform lengkap untuk siswa dan pembina dalam mengelola kegiatan ekstrakurikuler dengan point system otomatis dan certificate generation",
+  "image_url": "null",
+  "repo_link": "https://github.com/abayDahln/EkstrakurikulerSekolah",
+  "language": "Vue\nc#\nReactJs\npostgresql\ncapacitor"
+ },
+ {
+  "id": 52,
+  "title": "Pixelette",
+  "teacher": "Pak Aroh",
+  "creator": "Abby",
+  "description": "Lightweight and modern Windows desktop application built using C# and WinForms, designed to extract color palettes from images, pick color from screen, etc. It helps designers, developers, and color enthusiasts analyze and pick dominant colors from any uploaded image.",
+  "image_url": "null",
+  "repo_link": "https://github.com/abayDahln/Pixelette",
+  "language": "c#"
+ },
+ {
+  "id": 53,
+  "title": "Xam",
+  "teacher": "Pak Aroh",
+  "creator": "kelompok Hendri",
+  "description": "Aplikasi ujian",
+  "image_url": "null",
+  "repo_link": "https://github.com/Cruzzinx/Xam",
+  "language": "Flutter\nLaravel\nReactJs"
  }
 ]
