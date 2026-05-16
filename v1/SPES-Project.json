@@ -1,7 +1,7 @@
 [
  {
   "id": 1,
-  "title": "CLASS RESERVATIONs",
+  "title": "CLASS RESERVATION",
   "teacher": "Pak Aroh",
   "creator": "null",
   "description": "Membuat projek Aplikasi berbasis C#",
@@ -247,7 +247,7 @@
   "description": "Membuat project aplikasi (mobile & web) marketplace untuk siswa siswi berjualan",
   "image_url": "https:\/\/res.cloudinary.com\/dnm8qczle\/image\/upload\/v1759045493\/Untitled_design_y35gdl.png",
   "repo_link": "https:\/\/github.com\/LAWAGGG\/Schopedia",
-  "language": "ReactJs\nLaravel"
+  "language": "ReactJs\nLaravel\nCapacitor"
  },
  {
   "id": 26,
@@ -267,7 +267,7 @@
   "description": "Membuat project aplikasi mobile generate roadmap belajar berbasis ai",
   "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1777337688/Screenshot_2026-04-28_075431_eruul4.png",
   "repo_link": "https://github.com/LAWAGGG/SkillPath",
-  "language": "ReactJs\nLaravel"
+  "language": "ReactJs\nLaravel\nCapacitor"
  },
  {
   "id": 28,
@@ -277,7 +277,7 @@
   "description": "Membuat project aplikasi mobile forum pencaharian barang yang hilang",
   "image_url": "null",
   "repo_link": "https://github.com/Nabixka/FindIt",
-  "language": "VueJs\nExpressJs"
+  "language": "VueJs\nExpressJs\nCapacitor"
  },
  {
   "id": 29,
@@ -317,7 +317,7 @@
   "description": "a free, clean, and simple muslim prayer reminder and guide ",
   "image_url": "null",
   "repo_link": "https://github.com/itzfurizugg/MuslimNoob",
-  "language": "Flutter"
+  "language": "Flutter\nFirebase"
  },
  {
   "id": 33,
@@ -347,7 +347,7 @@
   "description": "Aplikasi pemesanan jasa tukang",
   "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1777335547/Screenshot_2026-04-28_071854_z7alqn.png",
   "repo_link": "https://github.com/LAWAGGG/FixIt",
-  "language": "Java"
+  "language": "Java\nsqlite"
  },
  {
   "id": 36,
@@ -357,7 +357,7 @@
   "description": "Aplikasi pemesanan mandiri (self-service) yang dirancang khusus untuk toko pastry dan kopi.",
   "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1777335728/Screenshot_2026-04-28_072153_ovqhlc.png",
   "repo_link": "https://github.com/n4nell/Crumbify.git",
-  "language": "Java"
+  "language": "Java\nphp"
  },
  {
   "id": 37,
@@ -367,7 +367,7 @@
   "description": "Aplikasi pemesanan mandiri (self-service) yang dirancang khusus untuk toko pastry dan kopi.",
   "image_url": "null",
   "repo_link": "https://github.com/sachaaXD/StickIt_Apps",
-  "language": "Kotlin"
+  "language": "Kotlin\nphp"
  },
  {
   "id": 38,
@@ -417,7 +417,7 @@
   "description": "aplikasi Android yang digunakan untuk melakukan pemilihan kandidat secara digital,",
   "image_url": "null",
   "repo_link": "https://github.com",
-  "language": "Java"
+  "language": "Java\nfirebase"
  },
  {
   "id": 43,
