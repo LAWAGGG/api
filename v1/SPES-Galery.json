@@ -230,5 +230,13 @@
         "image_url_1": "https://res.cloudinary.com/dnm8qczle/image/upload/v1780664272/WhatsApp_Image_2026-06-05_at_19.28.46_xml39g.jpg",
         "image_url_2": "https://res.cloudinary.com/dnm8qczle/image/upload/v1780664273/WhatsApp_Image_2026-06-05_at_19.28.46_1_kb5yyv.jpg",
         "image_url_3": "https://res.cloudinary.com/dnm8qczle/image/upload/v1780664272/WhatsApp_Image_2026-06-05_at_19.28.45_y5idmm.jpg"
+    },
+    {
+        "id": 30,
+        "title": "Hari Guru",
+        "description": "Selamat hari guruu",
+        "image_url_1": "https://res.cloudinary.com/dnm8qczle/image/upload/v1780666570/WhatsApp_Image_2026-06-05_at_20.29.58_1_pnzsew.jpg",
+        "image_url_2": "https://res.cloudinary.com/dnm8qczle/image/upload/v1780666570/WhatsApp_Image_2026-06-05_at_20.29.58_qr4bvz.jpg",
+        "image_url_3": "https://res.cloudinary.com/dnm8qczle/image/upload/v1780666570/WhatsApp_Image_2026-06-05_at_20.30.00_uxiboo.jpg"
     }
 ]
