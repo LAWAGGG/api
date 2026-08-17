@@ -528,5 +528,35 @@
   "image_url": "null",
   "repo_link": "https://github.com/Cruzzinx/Xam",
   "language": "Flutter\nLaravel\nReactJs"
+ },
+ {
+  "id": 53,
+  "title": "Formaly",
+  "teacher": "Semua guru RPL",
+  "creator": "kelompok Apip",
+  "description": "Aplikasi pembuat form",
+  "image_url": "https://res.cloudinary.com/wgyqi7lt/image/upload/v1786431694/formaly_kjzvza.png",
+  "repo_link": "https://github.com/itzfurizugg/formaly",
+  "language": "ReactJs\nFlutter\nSupabase\nCapacitor"
+ },
+ {
+  "id": 54,
+  "title": "E-Quran",
+  "teacher": "Pak Mujahid",
+  "creator": "Karllo",
+  "description": "Website untuk membaca al quran",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1786963678/Screenshot_2026-08-17_174527_u5ckps.png",
+  "repo_link": "https://github.com/karllo2111/E-quran",
+  "language": "Typescript\ntailwind\nnextjs"
+ },
+ {
+  "id": 55,
+  "title": "Quizary",
+  "teacher": "Semua guru RPL",
+  "creator": "Kelompok Eijaz",
+  "description": "Website pembuat quiz dan form",
+  "image_url": "https://res.cloudinary.com/dnm8qczle/image/upload/v1786963697/Screenshot_2026-08-13_110951_uyco8z.png",
+  "repo_link": "https://github.com/qynatech/Quizary",
+  "language": "fastapi\nReactJs\nexpo"
  }
 ]
