@@ -278,5 +278,37 @@
         "image_url_1": "https://res.cloudinary.com/dnm8qczle/image/upload/v1787038660/WhatsApp_Image_2026-08-17_at_09.52.38_1_xa27za.jpg",
         "image_url_2": "https://res.cloudinary.com/dnm8qczle/image/upload/v1787038660/WhatsApp_Image_2026-08-17_at_09.52.39_i72gd6.jpg",
         "image_url_3": "https://res.cloudinary.com/dnm8qczle/image/upload/v1787038660/WhatsApp_Image_2026-08-17_at_09.52.38_co538j.jpg"
+    },
+    {
+        "id": 36,
+        "title": "Pembekalan PKL",
+        "description": "ngga terasa ya udah pembekalan pkl ajaa, waktu kerasa cepeet banget huhu",
+        "image_url_1": "https://res.cloudinary.com/dnm8qczle/image/upload/v1792067361/WhatsApp_Image_2026-10-15_at_7.16.39_PM_1_cui0ny.jpg",
+        "image_url_2": "https://res.cloudinary.com/dnm8qczle/image/upload/v1792067362/WhatsApp_Image_2026-10-15_at_7.16.39_PM_3_dlcaz3.jpg",
+        "image_url_3": "https://res.cloudinary.com/dnm8qczle/image/upload/v1792067362/WhatsApp_Image_2026-10-15_at_7.16.39_PM_2_myzfq2.jpg"
+    },
+    {
+        "id": 37,
+        "title": "Jalan Sehat Terakhir",
+        "description": "yap bener banget, kita gabakal ada lagi jalan sehat di kelas 12 ini 😓",
+        "image_url_1": "https://res.cloudinary.com/dnm8qczle/image/upload/v1792067362/WhatsApp_Image_2026-10-15_at_7.16.38_PM_1_fpfowd.jpg",
+        "image_url_2": "https://res.cloudinary.com/dnm8qczle/image/upload/v1792067362/WhatsApp_Image_2026-10-15_at_7.16.38_PM_rohioc.jpg",
+        "image_url_3": "https://res.cloudinary.com/dnm8qczle/image/upload/v1792067790/WhatsApp_Image_2026-10-15_at_7.35.20_PM_oppzvd.jpg"
+    },
+    {
+        "id": 38,
+        "title": "Jalan jalan ke Istana Negara",
+        "description": "Kaget sih tiba tiba banget kita ke istana negara, seruuu",
+        "image_url_1": "https://res.cloudinary.com/dnm8qczle/image/upload/v1792067790/WhatsApp_Image_2026-10-15_at_7.34.05_PM_qcydyh.jpg",
+        "image_url_2": "https://res.cloudinary.com/dnm8qczle/image/upload/v1792067789/WhatsApp_Image_2026-10-15_at_7.34.06_PM_juifvn.jpg",
+        "image_url_3": "https://res.cloudinary.com/dnm8qczle/image/upload/v1792067790/WhatsApp_Image_2026-10-15_at_7.34.05_PM_1_intb0l.jpg"
+    },
+    {
+        "id": 39,
+        "title": "Abangku abang andhikaa",
+        "description": "Congrats abangkuuh juara desain tingkat internasional 🙌",
+        "image_url_1": "https://res.cloudinary.com/dnm8qczle/image/upload/v1792067887/WhatsApp_Image_2026-10-15_at_7.36.28_PM_nkqssc.jpg",
+        "image_url_2": "https://res.cloudinary.com/dnm8qczle/image/upload/v1792068300/WhatsApp_Image_2026-10-15_at_7.42.10_PM_yoxzjt.jpg",
+        "image_url_3": "https://res.cloudinary.com/dnm8qczle/image/upload/v1792068235/Screenshot_2026-10-15_194235_y7gj09.png"
     }
 ]
